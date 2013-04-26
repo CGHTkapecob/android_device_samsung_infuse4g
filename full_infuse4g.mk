@@ -20,14 +20,14 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/samsung/infuse4g/infuse4g.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := carbon_infuse4g
+PRODUCT_NAME := cos_infuse4g
 PRODUCT_DEVICE := infuse4g
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
