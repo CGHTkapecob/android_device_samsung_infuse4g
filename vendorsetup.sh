@@ -1,0 +1,1 @@
+add_lunch_combo rootbox_infuse4g-userdebug
