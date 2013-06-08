@@ -2,9 +2,9 @@
 # system.prop for smdkc110
 #
 
-ro.goo.developerid=scotthartbti
-ro.goo.rom=unofficialcm10
-ro.goo.version=unofficialcm10.108121
+ro.goo.developerid=andros11
+ro.goo.rom=rootboxInfuse4g
+ro.goo.version=$(shell date +%Y%m%d)
 
 rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d/dev/ttyS0
